@@ -3,42 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to NGINEV, your go-to source for software, hardware, marketing, and printing solutions.">
-  <meta name="keywords" content="NGINEV, business solutions, tech solutions, software, hardware, marketing, printing">
-  <title>NGINEV | Home</title>
-  <link rel="icon" href="favicon.ico">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="NGINEV offers cutting-edge software, hardware, marketing, and printing solutions tailored to your business needs. Empower your growth with NGINEV's innovative services.">
+  <meta name="keywords" content="NGINEV, business solutions, tech innovation, software solutions, hardware services, marketing solutions, printing services, technology partner">
+  <meta name="author" content="NGINEV">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="NGINEV | Your Partner in Innovation">
+  <meta property="og:description" content="Discover NGINEV's custom software, hardware, marketing, and printing solutions crafted for your success. Join us in bringing your vision to life.">
+  <meta property="og:image" content="path/to/og-image.jpg">
+  <meta property="og:url" content="https://www.nginev.com">
+  <meta property="og:type" content="website">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NGINEV | Your Partner in Innovation">
+  <meta name="twitter:description" content="Discover NGINEV's custom solutions for software, hardware, marketing, and printing. Let's build success together.">
+  <meta name="twitter:image" content="path/to/twitter-image.jpg">
+  
+  <title>NGINEV | Your Partner in Innovation</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
-    <h1>NGINEV</h1>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#software">Software</a></li>
-      <li><a href="#hardware">Hardware</a></li>
-      <li><a href="#marketing">Marketing</a></li>
-      <li><a href="#printing">Printing</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <nav class="navbar" aria-label="Main Navigation">
+    <div class="navbar-container">
+      <a href="#home" class="brand" aria-label="NGINEV Home">
+        <h1>NGINEV</h1>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+        <li><a href="#marketing">Marketing</a></li>
+        <li><a href="#printing">Printing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- Hero Section -->
   <header class="hero-section" id="home">
     <h2>NGINEV: Innovation Crafted for You</h2>
-    <p>At NGINEV, we turn technology into tools for your growth. Our custom software, hardware, design, and marketing solutions simplify and elevate your work. With us, you’re not just adopting tech—you’re gaining a partner dedicated to your success. Let’s bring your vision to life together.</p>
-    <video autoplay muted loop class="hero-video">
+    <p>Empower your growth with NGINEV's cutting-edge software, hardware, marketing, and printing solutions. Let's bring your vision to life together.</p>
+    <video autoplay muted loop class="hero-video" aria-label="Background video showcasing global innovation">
       <source src="world-1920.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </header>
 
-
-
+  <!-- Footer -->
   <footer class="footer">
-    <p>© 2024 NGINEV. All rights reserved.</p>
+    <p>© 2024 NGINEV. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    <ul class="social-links">
+      <li><a href="https://facebook.com/nginev" aria-label="NGINEV on Facebook">Facebook</a></li>
+      <li><a href="https://twitter.com/nginev" aria-label="NGINEV on Twitter">Twitter</a></li>
+      <li><a href="https://linkedin.com/company/nginev" aria-label="NGINEV on LinkedIn">LinkedIn</a></li>
+    </ul>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
 </body>
 </html>
